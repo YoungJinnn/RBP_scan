@@ -1,8 +1,8 @@
 # RBP_scan
 RNA binding proteins(RBPs) motif scanning pipeline
 
+<br>
 
-/
 ## mCross
 1. unzip files
    - unzip eCLIP_mCross_PWM.tgz file
@@ -20,7 +20,7 @@ RNA binding proteins(RBPs) motif scanning pipeline
    - run meme2meme_1.sh
    - run meme2meme_2.sh
 
-
+<br>
 
 ## CisBP-RNA
 1. unzip files
@@ -38,7 +38,7 @@ RNA binding proteins(RBPs) motif scanning pipeline
    - run run_matrix2meme.sh
    - run run_meme2meme.sh
 
-
+<br>
 
 ## oRNAment
 1. unzip files
@@ -54,7 +54,7 @@ RNA binding proteins(RBPs) motif scanning pipeline
    - run run_matrix2meme.sh
    - run run_meme2meme.sh
 
-
+<br>
 
 ## RBPDB
 1. unzip files
@@ -70,6 +70,9 @@ RNA binding proteins(RBPs) motif scanning pipeline
    - run run_matrix2meme.sh
    - run run_meme2meme.sh
 
+<br>
 
-  ## Combine AllmotifDB
-  
+## Combine AllmotifDB
+1. run shell file
+   - run move_meme_results.sh
+   - run run_meme2meme.sh
