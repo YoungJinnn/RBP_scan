@@ -6,11 +6,11 @@ RNA binding proteins(RBPs) motif scanning pipeline
 ### mCross
 1. unzip eCLIP_mCross_PWM.tgz file, rename the unzipped folder into eCLIP_PWM
 
-2. create folder 
-  - eCLIP_PFM_processed
-  - eCLIP_meme
-  - eCLIP_meme_combined
-  - eCLIP_meme_cell_combined
+2. create folder
+   - eCLIP_PFM_processed
+   - eCLIP_meme
+   - eCLIP_meme_combined
+   - eCLIP_meme_cell_combined
 
 3. run [script]
    run matrix2meme.sh
