@@ -98,3 +98,10 @@ RNA binding proteins(RBPs) motif scanning pipeline
 
 4. export the csv results into csv by running R
    - run Fimo_result_save_csv.ipynb
+  
+
+<br>
+
+### Experimental Data
+## Mass Spec
+Mass Spec Data that shows RNA associated proteins are processed with Mass_Spec.ipynb
