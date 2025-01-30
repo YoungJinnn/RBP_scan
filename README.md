@@ -102,6 +102,6 @@ RNA binding proteins(RBPs) motif scanning pipeline
 
 <br>
 
-### Experimental Data
-## Mass Spec
+## Experimental Data
+### Mass Spec
 Mass Spec Data that shows RNA associated proteins are processed with Mass_Spec.ipynb
