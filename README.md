@@ -76,14 +76,14 @@ RNA binding proteins(RBPs) motif scanning pipeline
   
 <br>
 
-## run meme
-### install meme
+## RBP scanning
+### install meme package
 1. make meme directory and download the most recent version of meme (meme-5.5.7.tar.gz used) <br>
    https://meme-suite.org/meme/doc/download.html
 2. follow the installation guide to install (Quick Install from Source used) <br>
    https://meme-suite.org/meme/doc/install.html?man_type=web
    
-### run meme
+### run fimo
 1. unzip files
    - Actg1_sequence.tar.gz
    - Actg2_sequence.tar.gz
