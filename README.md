@@ -91,10 +91,10 @@ RNA binding proteins(RBPs) motif scanning pipeline
   
 2. make fimo_out directory
 
-3. run shell file
+3. operate fimo by running shell file
    - run_fimo_Actg1.sh
    - run_fimo_Actg2_mapped.sh
    - run_fimo_FERMT1_TPM2_mapped.sh
 
-4. export the csv results into csv
+4. export the csv results into csv by running R
    - run Fimo_result_save_csv.ipynb
