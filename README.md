@@ -3,7 +3,8 @@ RNA binding proteins(RBPs) motif scanning pipeline
 
 <br>
 
-## mCross
+## Database collection
+### mCross
 1. unzip files
    - unzip eCLIP_mCross_PWM.tgz file
    - rename the unzipped folder into eCLIP_PWM
@@ -20,9 +21,8 @@ RNA binding proteins(RBPs) motif scanning pipeline
    - run meme2meme_1.sh
    - run meme2meme_2.sh
 
-<br>
 
-## CisBP-RNA
+### CisBP-RNA
 1. unzip files
    - unzip Homo_sapiens_2024_12_30_7_19_am.zip, rename the unzipped folder into Homo_sapiens
    - unzip Mus_musculus_2024_12_30_8_15_am.zip, rename the unzipped folder into Mus_musculus
@@ -38,9 +38,8 @@ RNA binding proteins(RBPs) motif scanning pipeline
    - run run_matrix2meme.sh
    - run run_meme2meme.sh
 
-<br>
 
-## oRNAment
+### oRNAment
 1. unzip files
    - unzip PWMS.tgz
 
@@ -54,9 +53,8 @@ RNA binding proteins(RBPs) motif scanning pipeline
    - run run_matrix2meme.sh
    - run run_meme2meme.sh
 
-<br>
 
-## RBPDB
+### RBPDB
 1. unzip files
    - unzip PFMDir.zip, rename the unzipped folder into PFMs
 
@@ -70,9 +68,30 @@ RNA binding proteins(RBPs) motif scanning pipeline
    - run run_matrix2meme.sh
    - run run_meme2meme.sh
 
-<br>
 
-## Combine AllmotifDB
+### Combine AllmotifDB
 1. run shell file
    - run move_meme_results.sh
    - run run_meme2meme.sh
+  
+<br>
+
+## run meme
+### install meme
+1. make meme directory and download the most recent version of meme (meme-5.5.7.tar.gz used) <br>
+   https://meme-suite.org/meme/doc/download.html
+2. follow the installation guide to install (Quick Install from Source used) <br>
+   https://meme-suite.org/meme/doc/install.html?man_type=web
+   
+### run meme
+1. unzip files
+   - Actg1_sequence.tar.gz
+   - Actg2_sequence.tar.gz
+   - FERMT1_TPM2_sequence.tar.gz
+  
+2. make fimo_out directory
+
+3. run shell file
+   - run_fimo_Actg1.sh
+   - run_fimo_Actg2_mapped.sh
+   - run_fimo_FERMT1_TPM2_mapped.sh
