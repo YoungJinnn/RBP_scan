@@ -3,7 +3,7 @@ RNA binding proteins(RBPs) motif scanning pipeline
 
 
 
-### mCross
+## mCross
 1. unzip eCLIP_mCross_PWM.tgz file, rename the unzipped folder into eCLIP_PWM
 
 2. create folder
@@ -12,27 +12,30 @@ RNA binding proteins(RBPs) motif scanning pipeline
    - eCLIP_meme_combined
    - eCLIP_meme_cell_combined
 
-3. run [script]
+3. run mCross_extract_meme.ipynb
    run matrix2meme.sh
    run meme2meme_1.sh
    run meme2meme_2.sh
 
 
-### CisBP-RNA
+
+## CisBP-RNA
 1. unzip Homo_sapiens_2024_12_30_7_19_am.zip, rename the unzipped folder into Homo_sapiens
    unzip Mus_musculus_2024_12_30_8_15_am.zip, rename the unzipped folder into Mus_musculus
 
-2. create folder
+3. create folder
    - CisBP-RNA_PFM_processed
    - CisBP-RNA_PFM_processed_species_combined
    - CisBP-RNA_meme
    - CisBP-RNA_meme_combined
   
-3. run run_matrix2meme.sh
+4. run CisBP-RNA_extract_meme.ipynb
+   run run_matrix2meme.sh
    run run_meme2meme.sh
 
 
-### oRNAment
+
+## oRNAment
 1. unzip PWMS.tgz
 
 2. create folder
@@ -40,12 +43,13 @@ RNA binding proteins(RBPs) motif scanning pipeline
    - oRNAment_meme
    - oRNAment_meme_combined
   
-3. run [script]
+3. run oRNAment_extract_meme.ipynb
    run run_matrix2meme.sh
    run run_meme2meme.sh
 
 
-### RBPDB
+
+## RBPDB
 1. unzip PFMDir.zip, rename the unzipped folder into PFMs
 
 2. create folder
@@ -53,6 +57,6 @@ RNA binding proteins(RBPs) motif scanning pipeline
    - RBPDB_meme
    - RBPDB_meme_combined
   
-3. run [script]
+3. RBPDB_extract_meme.ipynb
    run run_matrix2meme.sh
    run run_meme2meme.sh
