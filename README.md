@@ -17,9 +17,9 @@ RNA binding proteins(RBPs) motif scanning pipeline
 
 4. run R and shell file
    - run mCross_extract_meme.ipynb
-   - run matrix2meme.sh
-   - run meme2meme_1.sh
-   - run meme2meme_2.sh
+   - run run_matrix2meme.sh
+   - run run_meme2meme_1.sh
+   - run run_meme2meme_2.sh
 
 
 ### CisBP-RNA
@@ -95,3 +95,6 @@ RNA binding proteins(RBPs) motif scanning pipeline
    - run_fimo_Actg1.sh
    - run_fimo_Actg2_mapped.sh
    - run_fimo_FERMT1_TPM2_mapped.sh
+
+4. export the csv results into csv
+   - run Fimo_result_save_csv.ipynb
