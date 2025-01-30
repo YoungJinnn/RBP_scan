@@ -2,7 +2,7 @@
 RNA binding proteins(RBPs) motif scanning pipeline
 
 
-#
+/
 ## mCross
 1. unzip files
    - unzip eCLIP_mCross_PWM.tgz file
